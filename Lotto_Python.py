@@ -15,6 +15,13 @@ myList = [random.randint(1, 20) for _ in range(6)] # A random number generator f
 
 ten_list = ["Tom", "Ivan", "Philly", "Seamus", "Mags", "Eileen", "Dave", "Biddy", "John", "James"] #A named list with 10 Lottery Players
 
+#lotto_list =
+
+week1_list = ["Joe", "John", "Jane", "Mick", "Mary", "Ann", "Rick", "John", "Aine", "Brenda"]
+week2_list = ["Jack", "Mary", "Phil", "John", "Pat", "Joe", "Luke", "Bill", "Ben", "Nathan"]
+
+
 print(myList)
 print(ten_list)
 print("P")
+print (week1_list + week2_list)
